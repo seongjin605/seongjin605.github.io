@@ -22,7 +22,7 @@ social-email: seongjin605@gmail.com # add your Email address
 discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: GTM-PNS3XM8T # Google Analytics
 
 # Build Settings
 markdown: kramdown
