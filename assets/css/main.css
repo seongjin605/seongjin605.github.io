@@ -445,8 +445,8 @@ template {
 
 .highlighter-rouge {
   line-height: normal;
-  #background: rgba(135, 131, 120, .15);
-  #color: #EB5757;
+  background: rgba(135, 131, 120, .15);
+  color: #EB5757;
   border-radius: 4px;
   font-size: 85%;
   padding: 0.2em 0.4em;
@@ -781,7 +781,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #515151;
   background-color: #fbfbfb;
   margin: 0;
@@ -978,7 +978,7 @@ table tfoot td {
 }
 
 .about .author-name {
-  font-family: 'PT Serif', serif;
+  font-family: 'Noto Sans KR', serif;
   margin: 0 0 10px;
   position: relative;
   padding-bottom: 15px;
@@ -1171,7 +1171,7 @@ footer .copyright {
 }
 
 .post .post-content .post-title a {
-  font-family: 'PT Serif', serif;
+  font-family: 'Noto Sans KR', serif;
   text-decoration: none;
   color: #263959;
 }
