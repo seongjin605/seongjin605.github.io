@@ -1,18 +1,18 @@
 # Flexible-Jekyll is a simple and clean theme for Jekyll
 
-![](https://github.com/seongjin605/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
+![](https://github.com/seongjin605/blob/master/assets/img/promo-img.jpg?raw=true)
 
 ## Demo
 
-Check the theme in action [Demo](https://seongjin605.github.io/flexible-jekyll/)
+Check the theme in action [Demo](https://seongjin605.github.io/)
 
 The main page would look like this:
 
-![Main page preview](https://github.com/seongjin605/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
+![Main page preview](https://github.com/seongjin605/blob/master/assets/img/home-page.jpg?raw=true)
 
 The post page would look like this:
 
-![Post page preview](https://github.com/seongjin605/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
+![Post page preview](https://github.com/seongjin605/blob/master/assets/img/post-example.jpg?raw=true)
 
 ## Features
 
