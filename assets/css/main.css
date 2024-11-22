@@ -437,19 +437,19 @@ template {
 }
 
 .highlight {
-  background-color: #faf9f9;
+  background-color: #282C34;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   margin: 0;
 }
 
 .highlighter-rouge {
-  color: #ce887b;
-  font-weight: 400;
-  border: 1px solid #607D8B;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
-  padding: 0.1rem 0.5rem;
+  line-height: normal;
+  #background: rgba(135, 131, 120, .15);
+  #color: #EB5757;
+  border-radius: 4px;
+  font-size: 85%;
+  padding: 0.2em 0.4em;
 }
 
 .highlight .hll {
@@ -468,7 +468,11 @@ template {
 
 /* Error */
 .highlight .k {
-  color: #069;
+  color: #c678dd;
+}
+
+.highlight .nx {
+  color: silver;
 }
 
 /* Keyword */
@@ -552,7 +556,7 @@ template {
 
 /* Keyword.Constant */
 .highlight .kd {
-  color: #069;
+  color: #c678dd;
 }
 
 /* Keyword.Declaration */
@@ -587,17 +591,17 @@ template {
 
 /* Literal.String */
 .highlight .na {
-  color: #4f9fcf;
+  color: aliceblue;
 }
 
 /* Name.Attribute */
 .highlight .nb {
-  color: #366;
+  color: #D19A66;
 }
 
 /* Name.Builtin */
 .highlight .nc {
-  color: #0a8;
+  color: #e5c07b;
 }
 
 /* Name.Class */
@@ -607,7 +611,11 @@ template {
 
 /* Name.Constant */
 .highlight .nd {
-  color: #99f;
+  color: #61AFEF;
+}
+
+.highlight .p {
+  color: #61AFEF;
 }
 
 /* Name.Decorator */
@@ -622,7 +630,7 @@ template {
 
 /* Name.Exception */
 .highlight .nf {
-  color: #c0f;
+  color: #61AFEF;
 }
 
 /* Name.Function */
@@ -723,7 +731,7 @@ template {
 
 /* Literal.String.Regex */
 .highlight .s1 {
-  color: #c30;
+  color: #98c379;
 }
 
 /* Literal.String.Single */
@@ -805,7 +813,7 @@ blockquote {
   padding-left: 1.1rem;
   margin-left: 1rem;
   font-style: italic;
-  color: #ada8a8;
+  color: dimgray;
 }
 
 pre {
@@ -824,6 +832,7 @@ pre code {
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
+  color: silver;
 }
 
 table {
@@ -948,7 +957,7 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #333030;
+  background-color: darkgray;
 }
 
 .about img {
