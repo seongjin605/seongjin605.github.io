@@ -463,7 +463,7 @@ template {
 /* Comment */
 .highlight .err {
   color: #a00;
-  background-color: #faa;
+  /*background-color: #faa;*/
 }
 
 /* Error */
@@ -551,7 +551,7 @@ template {
 
 /* Generic.Traceback */
 .highlight .kc {
-  color: #069;
+  color: #e5c07b;
 }
 
 /* Keyword.Constant */
@@ -615,7 +615,7 @@ template {
 }
 
 .highlight .p {
-  color: #61AFEF;
+  color: #abb2bf;
 }
 
 /* Name.Decorator */
@@ -635,7 +635,7 @@ template {
 
 /* Name.Function */
 .highlight .nl {
-  color: #99f;
+  color: #c678dd;
 }
 
 /* Name.Label */
@@ -701,7 +701,7 @@ template {
 
 /* Literal.String.Doc */
 .highlight .s2 {
-  color: #c30;
+  color: #98c379;
 }
 
 /* Literal.String.Double */
