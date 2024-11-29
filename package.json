@@ -1,11 +1,14 @@
 {
-  "name": "Jekyll-Gulp-Sass-Autoprefixer-Imagemin-BrowserSync",
+  "name": "seongjin605.github.io",
   "version": "1.0.0",
-  "description": "A starter project for Jekyll",
+  "description": "seongjin605.github.io for Jekyll",
   "main": "index.js",
-  "repository": "https://github.com/seongjin605/Jekyll-Gulp-Sass-Autoprefixer-Imagemin-BrowserSync",
+  "repository": "https://github.com/seongjin605/seongjin605.github.io",
   "author": "Artem Sheludko",
   "license": "MIT",
+  "scripts": {
+    "push": "git add . && git commit -m \"update\" && git push"
+  },
   "dependencies": {
     "browser-sync": "^2.18.13",
     "child_process": "^1.0.2",
