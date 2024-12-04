@@ -571,7 +571,7 @@ template {
 
 /* Keyword.Pseudo */
 .highlight .kr {
-  color: #069;
+  color: #c678dd;
 }
 
 /* Keyword.Reserved */
@@ -650,7 +650,7 @@ template {
 
 /* Name.Tag */
 .highlight .nv {
-  color: #033;
+  color: silver;
 }
 
 /* Name.Variable */
@@ -1221,8 +1221,8 @@ a.newer-posts:hover {
 
 .header-page .page-date {
   color: #a0a0a0;
-  font-weight: 300;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 14px;
   text-transform: uppercase;
 }
 
