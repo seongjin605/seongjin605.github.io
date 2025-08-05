@@ -21,7 +21,7 @@ Fork the `master` branch and follow the [Jekyll Installation Documentation](http
 ## Start:
 
 ```bash
-$ jekyll serve
+$ bundle exec jekyll serve
 # http://127.0.0.1:4000
 ```
 
