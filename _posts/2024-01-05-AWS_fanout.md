@@ -46,9 +46,7 @@ SNS Topic (sample-topic)
 
 먼저 LocalStack 환경을 구성하고 필요한 큐와 구독을 설정합니다.
 
-### localstack.sh
-
-[localstack.sh](https://github.com/seongjin605/aws-fanout-pattern/blob/main/localstack.sh)
+<a href="https://github.com/seongjin605/aws-fanout-pattern/blob/main/localstack.sh" target="_blank">🔗 localstack.sh</a>
 
 ## 핵심 개념: SNS FilterPolicy
 
@@ -109,7 +107,7 @@ if (quantity) {
 
 #### 2. 향상된 SQS 메시지 수신
 
-SQS에서 메시지를 수신할 때는 `MessageAttributeNames: ['All']` 옵션을 사용하여 모든 메시지 속성을 함께 가져옵니다. 이를 통해 어떤 속성으로 필터링되었는지 확인할 수 있습니다.([AWS Request Parameters 참조](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_ReceiveMessage.html#API_ReceiveMessage_RequestParameters))
+SQS에서 메시지를 수신할 때는 `MessageAttributeNames: ['All']` 옵션을 사용하여 모든 메시지 속성을 함께 가져옵니다. 이를 통해 어떤 속성으로 필터링되었는지 확인할 수 있습니다.(<a href="https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_ReceiveMessage.html#API_ReceiveMessage_RequestParameters" target="_blank">🔗 AWS Request Parameters 참조</a>)
 
 수신된 메시지는 SNS를 통해 전달된 것이므로 JSON 형태로 파싱하여 실제 메시지 내용과 속성들을 확인합니다:
 
@@ -203,4 +201,4 @@ AWS SNS의 메시지 필터링 기능을 활용하면 복잡한 메시지 라우
 
 ---
 
-_전체 소스코드는 [GitHub 저장소](https://github.com/seongjin605/aws-fanout-pattern/tree/main)에서 확인하실 수 있습니다._
+_전체 소스코드는 <a href="https://github.com/seongjin605/aws-fanout-pattern/tree/main" target="_blank">🔗 GitHub 저장소</a>에서 확인하실 수 있습니다._
