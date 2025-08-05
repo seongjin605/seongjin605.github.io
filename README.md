@@ -6,14 +6,6 @@
 
 Check the theme in action [Demo](https://seongjin605.github.io/)
 
-The main page would look like this:
-
-![Main page preview](https://github.com/seongjin605/blob/master/assets/img/home-page.jpg?raw=true)
-
-The post page would look like this:
-
-![Post page preview](https://github.com/seongjin605/blob/master/assets/img/post-example.jpg?raw=true)
-
 ## Features
 
 - [Google Fonts](https://fonts.google.com/)
@@ -24,7 +16,14 @@ The post page would look like this:
 
 ## Installation:
 
-Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+Fork the `master` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+
+## Start:
+
+```bash
+$ jekyll serve
+# http://127.0.0.1:4000
+```
 
 ## License
 
