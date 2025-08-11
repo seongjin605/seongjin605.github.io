@@ -32,10 +32,10 @@ tags: [분산 시스템, 메시징 서비스, AWS, SQS, SNS, backoff, retry, exp
 
 라운드 수가 곧 완료 시간과 비례하므로, 클라이언트 수(N)가 증가할수록 완료 시간도 N에 비례해 선형적으로 증가하게 됩니다.
 
-### 기본 재시도 (N번 요청, 대기 없음)
+## 단순 재시도 방법 적용(N번 요청, 대기 없음)
 
 ```typescript
-async function retryPlain(send: () => Promise<any>, maxRetries = 3) {
+async function retry(send: () => Promise<any>, maxRetries = 3) {
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
       return await send();
