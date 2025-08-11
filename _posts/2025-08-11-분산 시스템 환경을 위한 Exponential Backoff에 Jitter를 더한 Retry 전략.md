@@ -166,3 +166,4 @@ None은 대기 없이 즉시 재시도하기 때문에 Completion Time 자체는
 
 - [https://aws.amazon.com/ko/builders-library/timeouts-retries-and-backoff-with-jitter](https://aws.amazon.com/ko/builders-library/timeouts-retries-and-backoff-with-jitter)
 - [https://aws.amazon.com/ko/blogs/architecture/exponential-backoff-and-jitter](https://aws.amazon.com/ko/blogs/architecture/exponential-backoff-and-jitter)
+- [https://docs.aws.amazon.com/ko_kr/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html](https://docs.aws.amazon.com/ko_kr/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html)
