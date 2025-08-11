@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 분산 시스템 환경을 위한 Exponential Backoff 전략 구현하기
+title: 분산 시스템 환경을 위한 Exponential Backoff에 Jitter를 더한 Retry 전략
 date: 2025-08-11 00:00:00 +0900
-description: 분산 시스템 환경을 위한 Exponential Backoff 구현하기
+description: 분산 시스템 환경을 위한 Exponential Backoff에 Jitter를 더한 Retry 전략
 img: 2025-08-11/full_jitter.png
 tags: [분산 시스템, 메시징 서비스, AWS, SQS, SNS, backoff, retry, exponential backoff]
 ---
